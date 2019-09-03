@@ -1,0 +1,40 @@
+{
+    "name": "alekseyshavrak/laravel-smsru",
+    "description": "SmsRu Notifications Driver",
+    "homepage": "https://github.com/alekseyshavrak/laravel-smsru",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Aleksey Shavrak",
+            "email": "alekseyshavrak@gmail.com",
+            "homepage": "https://github.com/alekseyshavrak"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "illuminate/notifications": "^5.3",
+        "illuminate/support": "^5.1|^5.2|^5.3",
+        "zelenin/smsru": "~4.1.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^0.9.5",
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "NotificationChannels\\SmsRu\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NotificationChannels\\SmsRu\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
