@@ -14,7 +14,7 @@
     "require": {
         "php": ">=7.2",
         "illuminate/notifications": "^5.3",
-        "illuminate/support": "^5.1|^5.2|^5.3",
+        "illuminate/support": "~5.7|~5.8|^6.0|^7.0",
         "zelenin/smsru": "~4.1.0"
     },
     "require-dev": {
