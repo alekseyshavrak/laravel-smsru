@@ -1,6 +1,6 @@
-# SMS notification channel for Laravel 5.8
+# SMS notification channel for Laravel 7 and 8
 
-This package makes it easy to send notifications using [sms.ru](https://sms.ru/) with Laravel 5.8.
+This package makes it easy to send notifications using [sms.ru](https://sms.ru/) with Laravel > 5.*.
 
 ## Contents
 
@@ -93,7 +93,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Credits
 
-- [Evgeni Razumov](https://github.com/enniel)
+- [Aleksey Shabrak](https://teleg.run/shavrak)
 - [All Contributors](../../contributors)
 
 ## License
